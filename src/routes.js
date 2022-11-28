@@ -8,7 +8,7 @@ export const routes = [
     element: <App />,
     children: [
       { path: '/composition', element: <Composition />, name: 'Composition' },
-      { path: '/context', element: <Context />, name: 'Context Vs Composition' },
+      { path: '/context', element: <Context />, name: 'Context' },
     ],
   },
 ];

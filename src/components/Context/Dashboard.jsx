@@ -7,7 +7,7 @@ const Dashboard = ({ user, onLogout }) => {
   // const Dashboard = ({ onLogout }) => {
   return (
     <Box>
-      <Heading>The Dashboard</Heading>
+      <Heading>Welcome to Il Palazzo</Heading>
       <DashboardNav />
       {/* <DashboardContent /> */}
       <DashboardContent user={user} />
@@ -18,7 +18,7 @@ const Dashboard = ({ user, onLogout }) => {
 // Composition
 // const Dashboard = ({ children, onLogout }) => (
 //   <Box>
-//     <Heading>The Dashboard</Heading>
+//      <Heading>Welcome to Il Palazzo</Heading>
 //     {children}
 //   </Box>
 // );

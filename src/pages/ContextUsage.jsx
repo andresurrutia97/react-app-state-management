@@ -15,7 +15,7 @@ const ContextUsage = () => {
 
   return (
     <>
-      <Title>Context</Title>
+      <Title>Context Vs Composition</Title>
       <Header user={user} onLogout={() => setUser(null)} />
       <Box h="sm" bgColor="green.50" p={4}>
         {user ? (

@@ -6,8 +6,8 @@ import FancyBorder from '../../components/Composition/FancyBorder';
 const DashboardContent = ({ user }) => (
   // const DashboardContent = () => (
   <FancyBorder color="purple">
-    <Text fontSize={18} fontWeight="bold">
-      Dashboard content
+    <Text fontSize={22} fontWeight="bold">
+      Content
     </Text>
     <WelcomeMessage user={user} />
     {/* <WelcomeMessage /> */}
@@ -17,8 +17,8 @@ const DashboardContent = ({ user }) => (
 // Composition
 // const DashboardContent = ({ children }) => (
 //   <FancyBorder color="purple">
-//     <Text fontSize={18} fontWeight="bold">
-//       Dashboard content
+//     <Text fontSize={20} fontWeight="bold">
+//       Content
 //     </Text>
 //     {children}
 //   </FancyBorder>

@@ -1,8 +1,8 @@
 import { Text } from '@chakra-ui/react';
 
 const DashboardNav = () => (
-  <Text fontSize={24} fontWeight="bold" mb={10}>
-    Dashboard Nav
+  <Text fontSize={24} color="gray.400" mb={10}>
+    We're going hybrid
   </Text>
 );
 
