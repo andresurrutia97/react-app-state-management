@@ -29,7 +29,7 @@ const ContextUsage = () => {
   );
 };
 
-// Contest API
+// Context API
 // export const Context = createContext();
 
 // const ContextUsage = () => {
